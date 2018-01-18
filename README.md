@@ -8,3 +8,4 @@ The Lab for this class is located [here](https://github.com/Product-College-Labs
 The material presented here is based on the article: 
 [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/). 
 
+![Git Branching Workflow.png](Git Branching Workflow.png)
