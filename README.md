@@ -118,5 +118,5 @@ before merging them with main story under developement.
     - Code review (read the script once through to catch any errors)
     - If all looks good, ship it! `git push origin master`
 
-![Git Branching Workflow](Git-Branching-Workflow-5.png)
+![Git Branching Workflow](01-Git-Branching-Workflow.png)
 
