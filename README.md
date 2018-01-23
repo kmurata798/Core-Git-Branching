@@ -7,7 +7,10 @@ For this lesson you will work alone, but imagine you are working
 with a group of other developers. Imagine each commit along 
 the way as being added by a different member of the group. 
 
-THe goal of the lesson is to show branching with Git and how you 
+The Lab for this class is located [here](https://github.com/Product-College-Labs/Core-GitHub-Branching/blob/master/). 
+
+
+The goal of the lesson is to show branching with Git and how you 
 can use branching to manage a workflow that involves multiple
 developers. 
 
@@ -114,4 +117,6 @@ before merging them with main story under developement.
     - Be sure you're on the `develop` branch
     - Code review (read the script once through to catch any errors)
     - If all looks good, ship it! `git push origin master`
+
+![Git Branching Workflow](Git-Branching-Workflow-5.png)
 
