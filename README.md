@@ -3,7 +3,7 @@
 Advanced GitHub for team work flows using branches to organize 
 shared projects. 
 
-The Lab for this class is located [here](https://github.com/Product-College-Labs/Core-GitHub-Braching/blob/master/README.md). 
+The Lab for this class is located [here](https://github.com/Product-College-Labs/Core-GitHub-Branching/blob/master/). 
 
 The material presented here is based on the article: 
 [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/). 
