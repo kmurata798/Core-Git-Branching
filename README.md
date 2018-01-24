@@ -21,8 +21,7 @@ project you might apply the steps outlined here several times.
 
 ## Getting Started 
 
-You'll start this exercise by forking the project 
-[here](https://github.com/Product-College-Labs/Core-GitHub-Branching/blob/master/). 
+You'll start this exercise by forking and then cloning the [Git branching starter project](https://github.com/Product-College-Labs/Core-Git-Branching).
 
 ## Instructions
 
