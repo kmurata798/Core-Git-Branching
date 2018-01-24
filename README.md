@@ -1,14 +1,8 @@
-# Core-GitHub-3-Branching-and-Team-Workflows
-
-Advanced GitHub for team work flows using branches to organize
-shared projects.
+# Core GitHub 3 Branching and Team Workflows
 
 For this lesson you will work alone, but imagine you are working 
 with a group of other developers. Imagine each commit along 
-the way as being added by a different member of the group. 
-
-The Lab for this class is located [here](https://github.com/Product-College-Labs/Core-GitHub-Branching/blob/master/). 
-
+the way as being added by a different member of your group. 
 
 The goal of the lesson is to show branching with Git and how you 
 can use branching to manage a workflow that involves multiple
@@ -16,10 +10,8 @@ developers.
 
 ## Overview
 
-The Lab for this class is located [here](https://github.com/Product-College-Labs/Core-GitHub-Branching).
-
 The material presented here is based on the article:
-[A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/).
+[A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/). 
 
 ![Git Branching Workflow](01-Git-Branching-Workflow.png)
 
@@ -27,19 +19,37 @@ This image shows the entires process outlined below. You could
 follow these processes in a real project. In the course of a 
 project you might apply the steps outlined here several times. 
 
+## Getting Started 
+
+You'll start this exercise by forking the project 
+[here](https://github.com/Product-College-Labs/Core-GitHub-Branching/blob/master/). 
+
 ## Instructions
 
 Imagine you are working on a screen play for a new movie. You 
 need to fix problems in the script, add new features, merge
 solve conflicts and publish the work along the way. 
 
+Working on a team you will create branches to manage team workflow. 
+
+You need to have a currently published project always available 
+(Production).
+
+Another branch will hold be where you develop the project (Develop).
+
+Your team will have a member developing new features that may or may not be 
+incorporated in the future (New Feature).
+
+At any point you will want to merge one or more of these branches. 
+
 ### Rename character
 
-The first step to create a new branch you can use to develop new 
+The first step is to create a new branch you can use to develop new 
 features. It's important that the changes to this branch are 
 not visible until they are considered ready to be published. 
 
-Your goal: Create a new branch and rename the character.
+Your goal: Create a new branch and rename the character. This 
+will be the Development branch
 
 - Create develop branch
 - Checkout develop
@@ -51,7 +61,10 @@ Your goal: Create a new branch and rename the character.
 ### Oh no! Fix typos
 
 Sometimes your team will need to make changes to the existing 
-published version of a product. 
+published version of a product. It's important to remove typos 
+from the currently published project. This is a Hot Fix
+
+Check the current version of the project for typos. 
 
 - `checkout` master branch
 - Edit text to fix typos
@@ -77,7 +90,7 @@ The producers have suggested that adding a zookeeper to the story
 would be a good idea. They may change their minds in the future. 
 Probably best to keep this in a new feature branch. 
 
-Add a character on a new feature branch.
+Add a New Feature branch where you can incorporate the zoo keeper.
 
 - Be sure you're on the `develop` branch: `git status`
   - If not, run `git checkout develop`
@@ -114,9 +127,13 @@ before merging them with main story under developement.
 ![Git Branching Workflow](08-Git-Branching-Workflow-merge-feature.png)
 
 ### Review new script and ship it!
-    - Be sure you're on the `develop` branch
-    - Code review (read the script once through to catch any errors)
-    - If all looks good, ship it! `git push origin master`
+
+When releasing a new version of a project you'll merge the development
+branch into the Porduction branch. 
+
+- Be sure you're on the `develop` branch
+- Code review (read the script once through to catch any errors)
+- If all looks good, ship it! `git push origin master`
 
 ![Git Branching Workflow](01-Git-Branching-Workflow.png)
 
