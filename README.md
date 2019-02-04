@@ -1,4 +1,4 @@
-# Core GitHub 3 Branching and Team Workflows
+# Git Branching & Team Workflow
 
 For this lesson you will work alone, but imagine you are working
 with a group of other developers. Imagine each commit along
@@ -116,14 +116,14 @@ development branch.
 
 ![Git Branching Workflow](06-Git-Branching-Workflow-improve-the-ending.png)
 
-### Merge new character branches into develop
+### Merge new character branch into develop
 
 The new character ideas were approved! Be sure to proof read them
 before merging them with main story under development.
 
 - Be sure you're on the `develop` branch: `git checkout develop`
 - Merge `zookeeper` branch into `develop`: `git merge zookeeper`
-- Now, the ending doesn't include the new character! Add another sentence to include the Friendly zookeeper in the ending.
+- Now, the ending doesn't include the new character! Add another sentence to include the Friendly Koala in the ending.
 
 ![Git Branching Workflow](08-Git-Branching-Workflow-merge-feature.png)
 
@@ -134,7 +134,9 @@ branch into the Production branch.
 
 - Be sure you're on the `develop` branch: `git checkout develop`
 - Code review (read the script once through to catch any errors)
-- If all looks good, ship it! `git push origin master`
+- If all looks good, go to your master branch: `git checkout master`
+- Merge all changes from development branch: `git merge develop`
+- Now ship it! `git push origin master`
 
 ![Git Branching Workflow](01-Git-Branching-Workflow.png)
 
