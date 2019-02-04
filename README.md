@@ -73,9 +73,9 @@ Check the current version of the project for typos.
 
 ![Git Branching Workflow](03-Git-Branching-Workflow-Fix-typos.png)
 
-These changes should be incorporated into the developement branch.
+These changes should be incorporated into the development branch.
 
-- `git checkout development`
+- `git checkout develop`
 - `git merge master`
 
 ![Git Branching Workflow](04-Git-Branching-Workflow-Merge-with-develop.png)
@@ -122,14 +122,14 @@ The new character ideas were approved! Be sure to proof read them
 before merging them with main story under development.
 
 - Be sure you're on the `develop` branch: `git checkout develop`
-- Merge `koala` branch into `develop`: `git merge koala`
-- Now, the ending doesn't include the new character! Add another sentence to include the Friendly Koala in the ending.
+- Merge `zookeeper` branch into `develop`: `git merge zookeeper`
+- Now, the ending doesn't include the new character! Add another sentence to include the Friendly zookeeper in the ending.
 
 ![Git Branching Workflow](08-Git-Branching-Workflow-merge-feature.png)
 
 ### Review new script and ship it!
 
-When releasing a new version of a project you'll merge the development
+When releasing a new version of a project you'll merge the develop
 branch into the Production branch.
 
 - Be sure you're on the `develop` branch: `git checkout develop`
