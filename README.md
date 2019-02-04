@@ -134,7 +134,9 @@ branch into the Production branch.
 
 - Be sure you're on the `develop` branch: `git checkout develop`
 - Code review (read the script once through to catch any errors)
-- If all looks good, ship it! `git push origin master`
+- If all looks good, go to your master branch: `git checkout master`
+- Merge all changes from development branch: `git merge develop`
+- Now ship it! `git push origin master`
 
 ![Git Branching Workflow](01-Git-Branching-Workflow.png)
 
