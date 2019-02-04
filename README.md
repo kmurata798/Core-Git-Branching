@@ -138,3 +138,6 @@ branch into the Production branch.
 
 ![Git Branching Workflow](01-Git-Branching-Workflow.png)
 
+### Additional Resources
+
+- [Learn Git Branching](https://learngitbranching.js.org/)
