@@ -143,3 +143,5 @@ branch into the Production branch.
 ### Additional Resources
 
 - [Learn Git Branching](https://learngitbranching.js.org/)
+
+Added new zookeeper to the plot!
