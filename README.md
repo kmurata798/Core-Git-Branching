@@ -143,10 +143,3 @@ branch into the Production branch.
 ### Additional Resources
 
 - [Learn Git Branching](https://learngitbranching.js.org/)
-edited text of last paragraph to improve ending!
-
-Added new zookeeper to the plot!
-
-Friendly Koala at the end!
-
-This text was typed in Develop branch typos edited.
