@@ -66,7 +66,7 @@ from the currently published project. This is a Hot Fix
 Check the current version of the project for typos.
 
 - Checkout the master branch: `git checkout master`
-- Edit text to fix typos
+- Edit text to fix typos. [x]Fixed typo
 - Commit to master: `git add . && git commit -m "Fixed typos."`
 - Push to production (GitHub repo): `git push origin master`
 - View script on GitHub to verify typos are fixed, but young boy is not yet renamed
