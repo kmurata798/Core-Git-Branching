@@ -148,3 +148,5 @@ edited text of last paragraph to improve ending!
 Added new zookeeper to the plot!
 
 Friendly Koala at the end!
+
+This text was typed in Develop branch typos edited.
